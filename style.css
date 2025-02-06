@@ -1,0 +1,63 @@
+/* Háttérkép beállítása */
+body {
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  padding: 0; /* Javítva: padding értéke 0 kell, hogy legyen */
+}
+
+/* A form stílusa */
+div {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Gomb stílusa */
+.btn-outline-success {
+  background-color: gray;
+  border-color: gray;
+  color: white;
+}
+
+.btn-outline-success:hover {
+  background-color: darkgray;
+  border-color: darkgray;
+}
+
+h1,
+h2,
+label {
+  font-family: Times;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+ul,
+li {
+  color: black;
+}
+
+.error-message {
+  border: 2px solid red;
+  padding: 10px;
+  margin-bottom: 20px;
+  color: red;
+}
+
+.success-message {
+  border: 2px solid green;
+  padding: 10px;
+  margin-bottom: 20px;
+  color: green;
+}
+
